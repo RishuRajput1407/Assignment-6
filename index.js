@@ -71,7 +71,7 @@ function mergeObjects(obj1, obj2) {
     return mergedObject;
 }
 let obj1 = { name: "Rishu", id: 129 }; 
-let obj2 = { state: "Noida", code: 201301 }; 
+let obj2 = { state: "U.P", code: 201301 }; 
 let result = mergeObjects(obj1, obj2);
 console.log(result);
 
